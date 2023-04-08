@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portofoliu | Foto</title>
+        <link href="favicon.ico" rel="icon" type="image/x-icon" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Personal Portfolio">
+        <link rel="stylesheet" href="/StyleSheets/stylesheet.css">
+        <link rel="stylesheet" href="/StyleSheets/sidenav.css">
+        <link rel="stylesheet" href="/StyleSheets/topnav.css">
+        <link rel="stylesheet" href="/StyleSheets/photosgrid.css">
+    </head>
+
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->    
+
+    <body>
+        <div class="topnav photosTitle">
+            <span class="topnavButton" onclick="openNav()">&#9776;</span>
+            <a class="centerTitle">Fotografii</a>
+        </div>
+        <div class="sidebar" id="sidebar">
+            <a style="cursor:pointer" class="closebutton" onclick="closeNav()">&times;</a>
+            <a href="/HTML/index-ro.html">Acasă</a>
+            <a href="#">Fotografii</a>
+            <a href="/HTML/videos-ro.html">Videoclipuri</a>
+            <a href="/HTML/contact-ro.html">Contactează</a>
+            <a href="/HTML/photos-en.html" class="chlangbutton">
+                <img src="/steag-en.png" style="cursor:pointer; width:40px;">
+            </a>
+        </div>
+
+<!-------------------------------------------------------------->
+        <br>
+        <br>
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img class="slideshowPhotos" src="/folderPhotos.html/DSC_9578.JPG" style="width:100%">
+            <!--<div class="text">Caption Text</div>-->
+            </div>
+        
+            <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img class="slideshowPhotos" src="/folderPhotos.html/DSC_9763.JPG" style="width:100%">
+            <!--<div class="text">Caption Two</div>-->
+            </div>
+        
+            <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img class="slideshowPhotos" src="/folderPhotos.html/DSC_4823.JPG" style="width:100%">
+            <!--<div class="text">Caption Three</div>-->
+            </div>
+            <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img class="slideshowPhotos" src="/folderPhotos.html/DSC_9310.JPG" style="width:100%">
+            <!--<div class="text">Caption Text</div>-->
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div> 
+        <br>            
+        <div class="rowPhotos">
+            <div class="columnPhotos">
+                <img class="gridPhotos" src="/folderPhotos.html/DSC_1627-01.jpeg">
+            </div>
+            <div class="columnPhotos">
+                <img class="gridPhotos" src="/folderPhotos.html/DSC_1573.JPG">
+            </div>
+        </div>
+        <div class="rowPhotos">
+            <div class="columnPhotos">
+                <img class="gridPhotos" src="/folderPhotos.html/DSC_6183.JPG">
+            </div>
+            <div class="columnPhotos">
+                <img class="gridPhotos" src="/folderPhotos.html/DSC_9047.JPG">
+            </div>
+        </div>
+        <div class="rowPhotos">
+            <div class="columnPhotos">
+                <img class="gridPhotos" src="/folderPhotos.html/DSC_9236.JPG">
+            </div>
+            <div class="columnPhotos">
+                <img class="gridPhotos" src="/folderPhotos.html/DSC_0433.jpg">
+            </div>
+        </div>
+        <div class="rowPhotos">
+            <div class="columnPhotos">
+                <img class="gridPhotos" src="/folderPhotos.html/DSC_0647.jpg">
+            </div>
+            <div class="columnPhotos">
+                <img class="gridPhotos" src="/folderPhotos.html/DSC_9046.JPG">
+            </div>
+        </div>
+        <script src="/Scripts/slideshowPhotos.js"></script>
+        <script src="/Scripts/sidebarShowHide.js"></script>
+
+    </body>
+</html>

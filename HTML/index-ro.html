@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portofoliu</title>
+        <link href="favicon.ico" rel="icon" type="image/x-icon" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Personal Portfolio">
+        <link rel="stylesheet" href="/StyleSheets/stylesheet.css">
+        <link rel="stylesheet" href="/StyleSheets/sidenav.css">
+        <link rel="stylesheet" href="/StyleSheets/topnav.css">
+        <link rel="stylesheet" href="/StyleSheets/photosgrid.css">
+    </head>
+
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->    
+
+    <body>
+        <div class="topnav">
+            <span class="topnavButton" onclick="openNav()">&#9776;</span>
+            <a class="centerTitle">Portofoliu Personal</a>
+        </div>
+        <div class="sidebar" id="sidebar">
+            <a style="cursor:pointer" class="closebutton" onclick="closeNav()">&times;</a>
+            <a href="#">Acasă</a>
+            <a href="/HTML/photos-ro.html">Fotografii</a>
+            <a href="/HTML/videos-ro.html">Videoclipuri</a>
+            <a href="/HTML/contact-ro.html">Contactează</a>
+            <a href="/index.html" class="chlangbutton">
+                <img src="/steag-en.png" style="cursor:pointer; width:40px;">
+            </a>
+        </div>
+
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+
+        <div class="titleFirstPage">
+            <img class="imgFirstPage" style="width:100%; height:625; position:relative;" src="/LandingImage.jpg" alt="">
+            <div class="centered">
+                <h1 class="titleText" id="titleOfPortfolio">Portofoliu Personal</h1>
+                <h2 class="titleText">Huțanu Andrei Leontin</h2>
+            </div>
+        </div>
+
+        <div class="photos">
+            <div class="stickyTitle"><h2>Fotografii</h2></div>
+
+<!-------------------------------------------------------------->
+
+            <div class="rowPhotos">
+                <div class="columnPhotos">
+                    <img class="gridPhotos" src="/folderPhotos.html/DSC_1627-01.jpeg">
+                </div>
+                <div class="columnPhotos">
+                    <img class="gridPhotos" src="/folderPhotos.html/DSC_1573.JPG">
+                </div>
+            </div>
+            <div class="rowPhotos">
+                <div class="columnPhotos">
+                    <img class="gridPhotos" src="/folderPhotos.html/DSC_9578.JPG">
+                </div>
+                <div class="columnPhotos">
+                    <img class="gridPhotos" src="/folderPhotos.html/DSC_9763.JPG">
+                </div>
+            </div>
+        </div>
+        <script src="/Scripts/slideshowPhotos.js"></script>
+        <script src="/Scripts/sidebarShowHide.js"></script>
+
+    </body>
+</html>

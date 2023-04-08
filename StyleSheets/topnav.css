@@ -1,0 +1,50 @@
+.topnav {
+    position:absolute;
+    top:0;
+    z-index: 1;
+    margin:0px;
+    width:100%;
+    height:60px, auto;
+    overflow: hidden;
+    background-color: black;
+}
+.photosTitle {
+    position:fixed;
+    top:0;
+    z-index: 1;
+    margin:0px;
+    width:100%;
+    height:60px;
+    overflow: hidden;
+    background-color: black;
+}
+.topnav .topnavButton {
+    font-size:30px;
+    color: #818181;
+    margin: 10px;
+    position: fixed;
+    cursor:pointer;
+}
+.topnav .topnavButton:hover {
+    color: white;
+}
+.topnav .centerTitle {
+    display: block;
+    color: #818181;
+    text-align: center;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 40px;
+}
+@media screen and (max-width: 800px) {
+    .topnav {
+        height: 20px;
+    }
+    .topnav .centerTitle {
+        font-size:13px;
+    }
+    .topnav .topnavButton {
+        font-size: 10px;
+        margin:0;
+    }
+}
